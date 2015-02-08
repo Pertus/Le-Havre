@@ -64,13 +64,21 @@ namespace LeHavre
         private void button1_Click(object sender, EventArgs e)
         {
             PayHarvest();
-            MessageBox.Show("You took " + loansTaken + " number of loans this harvest");
-            this.Close();
         }
 
         private void player1Harve_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void TakeLoansUntilPlayerCanPay()
+        {
+            while (maxFood < foodToPay)
+            {
+                _game.TakeLoan(currentPlayer);
+                maxFood += 4;
+                loansTaken++;
+            }                  
         }
 
         private void PayHarvest()
@@ -81,12 +89,28 @@ namespace LeHavre
                 {
                     MessageBox.Show("You can pay the required ammount of food!");
                 }
+                else if (totalFood != maxFood)
+                {
+                    MessageBox.Show("You have to pay as much as you can");
+                }
+                    //First way out
                 else
                 {
-                    _game.TakeLoan(currentPlayer);
-                    loansTaken++;
+                    int difference = foodToPay - maxFood;
+                    TakeLoansUntilPlayerCanPay();
+                    int francsLeft = loansTaken * 4 - difference;
+
+                    currentPlayer.Francs -= Convert.ToInt32(francsSelector.Value) + difference;
+                    currentPlayer.Fish -= Convert.ToInt32(fishSelector.Value);
+                    currentPlayer.SmokedFish -= Convert.ToInt32(smokedFishSelector.Value);
+                    currentPlayer.Bread -= Convert.ToInt32(breadSelector.Value);
+                    currentPlayer.Meat -= Convert.ToInt32(meatselector.Value);
+
+                    MessageBox.Show("Harvest completed. You took " + loansTaken + " number of loans this harvest");
+                    this.Close();
                 }
             }
+                //Second way out
             else
             {
                 currentPlayer.Francs -= Convert.ToInt32(francsSelector.Value);
@@ -94,6 +118,9 @@ namespace LeHavre
                 currentPlayer.SmokedFish -= Convert.ToInt32(smokedFishSelector.Value);
                 currentPlayer.Bread -= Convert.ToInt32(breadSelector.Value);
                 currentPlayer.Meat -= Convert.ToInt32(meatselector.Value);
+
+                MessageBox.Show("Harvest completed. You took " + loansTaken + " number of loans this harvest");
+                this.Close();
             }
         }
     }

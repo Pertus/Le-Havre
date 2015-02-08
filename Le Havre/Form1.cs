@@ -61,6 +61,7 @@ namespace LeHavre
             if(game.Turn<8)
                 AddNewResources(game.GetNextRoundMarker());
 
+            UpdatePlayerResources();
             MoveBoat();         
         }
 
@@ -249,7 +250,7 @@ namespace LeHavre
 
         private void UpdatePlayerResources()
         {
-            player1Points_lbl.Text = "Points: " + game.player1.Points;
+            player1Points_lbl.Text = "Points: " + game.player1.CalculatePoints();
             player1Francs_lbl.Text = "Francs: " + game.player1.Francs;
             player1Fish_lbl.Text = "Fish: " + game.player1.Fish;
             player1Wood_lbl.Text = "Wood: " + game.player1.Wood;
@@ -269,7 +270,7 @@ namespace LeHavre
             player1Leather_lbl.Text = "Leather: " + game.player1.Leather;
             player1Loans_lbl.Text = "Loans: " + game.player1.Loans;
 
-            player2Points_lbl.Text = "Points: " + game.player2.Points;
+            player2Points_lbl.Text = "Points: " + game.player2.CalculatePoints();
             player2Francs_lbl.Text = "Francs: " + game.player2.Francs;
             player2Fish_lbl.Text = "Fish: " + game.player2.Fish;
             player2Wood_lbl.Text = "Wood: " + game.player2.Wood;

@@ -8,6 +8,3 @@ C:\Users\Per\Dropbox\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug
 C:\Users\Per\Dropbox\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\LeHavre.Properties.Resources.resources
 C:\Users\Per\Dropbox\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\Le Havre.csproj.GenerateResource.Cache
 C:\Users\Per\Dropbox\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\LeHavre.HarvestForm.resources
-C:\Users\Per\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
-C:\Users\Per\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
-C:\Users\Per\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb

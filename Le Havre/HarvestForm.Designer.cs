@@ -93,7 +93,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(164, 78);
+            this.label1.Location = new System.Drawing.Point(191, 74);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 5;
@@ -101,7 +101,7 @@
             // 
             // francsSelector
             // 
-            this.francsSelector.Location = new System.Drawing.Point(167, 95);
+            this.francsSelector.Location = new System.Drawing.Point(194, 91);
             this.francsSelector.Name = "francsSelector";
             this.francsSelector.Size = new System.Drawing.Size(53, 20);
             this.francsSelector.TabIndex = 6;
@@ -109,7 +109,7 @@
             // totalFood_lbl
             // 
             this.totalFood_lbl.AutoSize = true;
-            this.totalFood_lbl.Location = new System.Drawing.Point(164, 233);
+            this.totalFood_lbl.Location = new System.Drawing.Point(191, 233);
             this.totalFood_lbl.Name = "totalFood_lbl";
             this.totalFood_lbl.Size = new System.Drawing.Size(35, 13);
             this.totalFood_lbl.TabIndex = 7;
@@ -117,7 +117,7 @@
             // 
             // fishSelector
             // 
-            this.fishSelector.Location = new System.Drawing.Point(167, 138);
+            this.fishSelector.Location = new System.Drawing.Point(194, 134);
             this.fishSelector.Name = "fishSelector";
             this.fishSelector.Size = new System.Drawing.Size(53, 20);
             this.fishSelector.TabIndex = 8;
@@ -125,7 +125,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(164, 122);
+            this.label2.Location = new System.Drawing.Point(191, 118);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(26, 13);
             this.label2.TabIndex = 9;
@@ -134,7 +134,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(237, 122);
+            this.label3.Location = new System.Drawing.Point(264, 118);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 13);
             this.label3.TabIndex = 13;
@@ -142,14 +142,14 @@
             // 
             // smokedFishSelector
             // 
-            this.smokedFishSelector.Location = new System.Drawing.Point(240, 138);
+            this.smokedFishSelector.Location = new System.Drawing.Point(267, 134);
             this.smokedFishSelector.Name = "smokedFishSelector";
             this.smokedFishSelector.Size = new System.Drawing.Size(53, 20);
             this.smokedFishSelector.TabIndex = 12;
             // 
             // breadSelector
             // 
-            this.breadSelector.Location = new System.Drawing.Point(240, 95);
+            this.breadSelector.Location = new System.Drawing.Point(267, 91);
             this.breadSelector.Name = "breadSelector";
             this.breadSelector.Size = new System.Drawing.Size(53, 20);
             this.breadSelector.TabIndex = 11;
@@ -157,7 +157,7 @@
             // Bread
             // 
             this.Bread.AutoSize = true;
-            this.Bread.Location = new System.Drawing.Point(237, 78);
+            this.Bread.Location = new System.Drawing.Point(264, 74);
             this.Bread.Name = "Bread";
             this.Bread.Size = new System.Drawing.Size(35, 13);
             this.Bread.TabIndex = 10;
@@ -165,7 +165,7 @@
             // 
             // meatselector
             // 
-            this.meatselector.Location = new System.Drawing.Point(167, 186);
+            this.meatselector.Location = new System.Drawing.Point(194, 182);
             this.meatselector.Name = "meatselector";
             this.meatselector.Size = new System.Drawing.Size(53, 20);
             this.meatselector.TabIndex = 15;
@@ -173,7 +173,7 @@
             // Meat
             // 
             this.Meat.AutoSize = true;
-            this.Meat.Location = new System.Drawing.Point(164, 169);
+            this.Meat.Location = new System.Drawing.Point(191, 165);
             this.Meat.Name = "Meat";
             this.Meat.Size = new System.Drawing.Size(31, 13);
             this.Meat.TabIndex = 14;

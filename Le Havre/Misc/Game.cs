@@ -153,7 +153,6 @@ namespace LeHavre
         public void TakeLoan(Player player)
         {
             player.Loans++;
-            player.Points -= 7;
             player.Francs += 4;
         }
 

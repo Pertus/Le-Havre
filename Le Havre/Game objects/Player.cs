@@ -73,7 +73,7 @@ namespace LeHavre
         }
 
 
-        private int CalculatePoints()
+        public int CalculatePoints()
         {
             int result=0;
 
@@ -83,6 +83,7 @@ namespace LeHavre
             //    result++;
             //}
             result = result + Francs;
+            result -= Loans * 7;
 
             return result;
         }
