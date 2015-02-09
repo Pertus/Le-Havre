@@ -119,7 +119,7 @@ namespace LeHavre
                 currentPlayer.Bread -= Convert.ToInt32(breadSelector.Value);
                 currentPlayer.Meat -= Convert.ToInt32(meatselector.Value);
 
-                MessageBox.Show("Harvest completed. You took " + loansTaken + " number of loans this harvest!");
+                MessageBox.Show("Harvest completed. You took " + loansTaken + " number of loans this harvest");
                 this.Close();
             }
         }
