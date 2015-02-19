@@ -11,3 +11,10 @@ C:\Users\Per\Dropbox\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug
 C:\Users\Per\Desktop\Le Havre\Le Havre\bin\Debug\WindowsFormsApplication3.exe.config
 C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\WindowsFormsApplication3.exe
 C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\Per\Desktop\Le Havre\Le Havre\bin\Debug\WindowsFormsApplication3.exe
+C:\Users\Per\Desktop\Le Havre\Le Havre\bin\Debug\WindowsFormsApplication3.pdb
+C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\Le Havre.csprojResolveAssemblyReference.cache
+C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.Form1.resources
+C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.HarvestForm.resources
+C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.Properties.Resources.resources
+C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\Le Havre.csproj.GenerateResource.Cache

@@ -19,6 +19,8 @@ namespace LeHavre
         Player currentPlayer;
         Game _game;
         int loansTaken;
+        
+
         public HarvestForm(Game game, Player player)
         {
             InitializeComponent();

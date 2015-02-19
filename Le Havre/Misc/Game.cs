@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using LeHavre.Resources;
+using System.Drawing;
 
 namespace LeHavre
 {
@@ -47,15 +47,19 @@ namespace LeHavre
             ShuffleAndAddRoundMarkers();
             Round = 1;
             Turn = 1;
+            //Bitmap bm = Properties.Resources."testCard_png";
+            //Building testBuilding = new Building(GetClay, 2, "Images/testCard.png");
+
+             
         }
 
         //test
         //public BuildingCard testCard = new BuildingCard(GetClay);
 
-        //private static void GetClay(Player p)
-        //{
-        //    p.AddResource(new Clay());
-        //}
+        private static void GetClay(Player p)
+        {
+            p.Clay++;
+        }
 
         
 
