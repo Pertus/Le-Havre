@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using LeHavre.Misc;
 
 namespace LeHavre
 {
@@ -13,7 +14,7 @@ namespace LeHavre
         public Player player2;
         public Player activePlayer;
 
-        private bool AvtivePlayersMainActionDone;
+        public bool AvtivePlayersMainActionDone;
 
         private List<Player> playerList;
         private List<RoundMarker> roundMarkerList;
@@ -22,6 +23,8 @@ namespace LeHavre
 
         public int Round { get; set; }
         public int Turn { get; set; }
+
+        public BuildingRepository BuildingRepository { get; set; }
 
 
 
@@ -47,21 +50,9 @@ namespace LeHavre
             ShuffleAndAddRoundMarkers();
             Round = 1;
             Turn = 1;
-            //Bitmap bm = Properties.Resources."testCard_png";
-            //Building testBuilding = new Building(GetClay, 2, "Images/testCard.png");
-
-             
+            BuildingRepository = new BuildingRepository();
+  
         }
-
-        //test
-        //public BuildingCard testCard = new BuildingCard(GetClay);
-
-        private static void GetClay(Player p)
-        {
-            p.Clay++;
-        }
-
-        
 
         public void EndTurn()
         {

@@ -34,6 +34,11 @@ namespace LeHavre
             iron_lbl.Text = iron.ToString();
             cattle_lbl.Text = cattle.ToString();
 
+            publicBuilding1_pb.BackgroundImage = game.BuildingRepository.GetBuilding(25)._Image;
+            publicBuilding1_pb.Tag = (int)25;
+            publicBuilding2_pb.BackgroundImage = game.BuildingRepository.GetBuilding(27)._Image;
+            publicBuilding2_pb.Tag = (int)27;
+
             
 
             turn_lbl.Text = "Blue player's turn";
@@ -292,6 +297,22 @@ namespace LeHavre
 
 
         }
+        private void ClickOnBuilding(int id)
+        {
+            Building building = game.BuildingRepository.GetBuilding(id);
+            if (building.Occupied == false)
+            {
+                building.effect(game.activePlayer);
+                UpdatePlayerResources();
+                game.AvtivePlayersMainActionDone = true;
+                building.Occupied = true;
+            }
+            else
+            {
+                MessageBox.Show("Building is occupied!");
+            }
+        }
+
         #region click methods
 
         private void button1_Click(object sender, EventArgs e)
@@ -411,5 +432,17 @@ namespace LeHavre
             }
         }
         #endregion
+
+        private void publicBuilding1_pb_Click(object sender, EventArgs e)
+        {
+
+            ClickOnBuilding((int)publicBuilding1_pb.Tag);
+            publicBuilding1_pb.Image = Properties.Resources.redPlayerPawn;
+        }
+
+        private void publicBuilding2_pb_Click(object sender, EventArgs e)
+        {
+            ClickOnBuilding((int)publicBuilding2_pb.Tag);
+        }
     }
 }

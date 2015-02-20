@@ -133,6 +133,11 @@
             this.RC_specialbuilding_lbl = new System.Windows.Forms.Label();
             this.player1Loans_lbl = new System.Windows.Forms.Label();
             this.player2Loans_lbl = new System.Windows.Forms.Label();
+            this.publicBuilding1_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding2_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding3_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding4_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding5_pb = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.board)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.francs_pb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fish_pb)).BeginInit();
@@ -156,6 +161,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.boatSpace5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.boatSpace6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.boatSpace7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding1_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding2_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding3_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding4_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding5_pb)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -1183,12 +1193,64 @@
             this.player2Loans_lbl.TabIndex = 105;
             this.player2Loans_lbl.Text = "Fish:";
             // 
+            // publicBuilding1_pb
+            // 
+            this.publicBuilding1_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding1_pb.Location = new System.Drawing.Point(749, 72);
+            this.publicBuilding1_pb.Name = "publicBuilding1_pb";
+            this.publicBuilding1_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding1_pb.TabIndex = 106;
+            this.publicBuilding1_pb.TabStop = false;
+            this.publicBuilding1_pb.Click += new System.EventHandler(this.publicBuilding1_pb_Click);
+            // 
+            // publicBuilding2_pb
+            // 
+            this.publicBuilding2_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding2_pb.Location = new System.Drawing.Point(862, 74);
+            this.publicBuilding2_pb.Name = "publicBuilding2_pb";
+            this.publicBuilding2_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding2_pb.TabIndex = 107;
+            this.publicBuilding2_pb.TabStop = false;
+            this.publicBuilding2_pb.Click += new System.EventHandler(this.publicBuilding2_pb_Click);
+            // 
+            // publicBuilding3_pb
+            // 
+            this.publicBuilding3_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding3_pb.Location = new System.Drawing.Point(973, 72);
+            this.publicBuilding3_pb.Name = "publicBuilding3_pb";
+            this.publicBuilding3_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding3_pb.TabIndex = 108;
+            this.publicBuilding3_pb.TabStop = false;
+            // 
+            // publicBuilding4_pb
+            // 
+            this.publicBuilding4_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding4_pb.Location = new System.Drawing.Point(1077, 72);
+            this.publicBuilding4_pb.Name = "publicBuilding4_pb";
+            this.publicBuilding4_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding4_pb.TabIndex = 109;
+            this.publicBuilding4_pb.TabStop = false;
+            // 
+            // publicBuilding5_pb
+            // 
+            this.publicBuilding5_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding5_pb.Location = new System.Drawing.Point(1192, 72);
+            this.publicBuilding5_pb.Name = "publicBuilding5_pb";
+            this.publicBuilding5_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding5_pb.TabIndex = 110;
+            this.publicBuilding5_pb.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1396, 734);
+            this.Controls.Add(this.publicBuilding5_pb);
+            this.Controls.Add(this.publicBuilding4_pb);
+            this.Controls.Add(this.publicBuilding3_pb);
+            this.Controls.Add(this.publicBuilding2_pb);
+            this.Controls.Add(this.publicBuilding1_pb);
             this.Controls.Add(this.player2Loans_lbl);
             this.Controls.Add(this.player1Loans_lbl);
             this.Controls.Add(this.RC_specialbuilding_lbl);
@@ -1319,6 +1381,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.boatSpace5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.boatSpace6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.boatSpace7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding1_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding2_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding3_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding4_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding5_pb)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1431,6 +1498,11 @@
         private System.Windows.Forms.Label RC_specialbuilding_lbl;
         private System.Windows.Forms.Label player1Loans_lbl;
         private System.Windows.Forms.Label player2Loans_lbl;
+        private System.Windows.Forms.PictureBox publicBuilding1_pb;
+        private System.Windows.Forms.PictureBox publicBuilding2_pb;
+        private System.Windows.Forms.PictureBox publicBuilding3_pb;
+        private System.Windows.Forms.PictureBox publicBuilding4_pb;
+        private System.Windows.Forms.PictureBox publicBuilding5_pb;
     }
 }
 
