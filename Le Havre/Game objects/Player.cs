@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeHavre
 {
-    class Player
+    public class Player
     {
         public int Points { get; set; }
 
@@ -27,8 +27,8 @@ namespace LeHavre
         public int Meat { get; set; }
         public int Coke { get; set; }
         public int Leather { get; set; }
+        public int TotalEnergy { get; set; }
 
-        //private List<Resource> resourceList;
         private List<Boat> boatList;
 
         public int Houses { get; set; }
@@ -59,7 +59,7 @@ namespace LeHavre
             Coke = 0;
             Leather = 0;
 
-            //resourceList = new List<Resource>() { new Franc(), new Franc(), new Fish(), new Fish(), new Wood(), new Wood(), new Coal()};
+
             boatList = new List<Boat>();
             Houses = 0;
             Industries = 0;
@@ -69,44 +69,19 @@ namespace LeHavre
             Hammers = 0;
             Points = CalculatePoints();
             Color = color;
+
+            TotalEnergy = Coal * 3 + Charcoal * 3 + Coke * 10;
         }
 
 
         public int CalculatePoints()
         {
             int result=0;
-
-            //var francs = resourceList.OfType<Franc>();
-            //foreach (Franc f in francs)
-            //{
-            //    result++;
-            //}
             result = result + Francs;
             result -= Loans * 7;
 
             return result;
         }
-
-        //public void AddResource(Resource resource, int amount)
-        //{
-        //    for (int i = 0; i < amount; i++)
-        //    {
-        //        resourceList.Add(resource);
-        //    }
-
-        //}
-
-        //public void PayResource(String resource, int amount)
-        //{
-        //    var temp = resourceList.Find(x => x.Name == resource);
-        //    resourceList.Remove(temp);
-        //}
-
-        //public int GetNumberOfAResource(string resource)
-        //{
-        //    int result = resourceList.Where(x => x.Name == resource).Count();
-        //    return result;
-        //}
 
         public int GetAmmountOfFoodFromBoats()
         {

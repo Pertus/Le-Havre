@@ -30,14 +30,6 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.board = new System.Windows.Forms.PictureBox();
-            this.francs_pb = new System.Windows.Forms.PictureBox();
-            this.fish_pb = new System.Windows.Forms.PictureBox();
-            this.wood_pb = new System.Windows.Forms.PictureBox();
-            this.clay_pb = new System.Windows.Forms.PictureBox();
-            this.iron_pb = new System.Windows.Forms.PictureBox();
-            this.v = new System.Windows.Forms.PictureBox();
-            this.cattle_pb = new System.Windows.Forms.PictureBox();
             this.francs_lbl = new System.Windows.Forms.Label();
             this.fish_lbl = new System.Windows.Forms.Label();
             this.wood_lbl = new System.Windows.Forms.Label();
@@ -52,7 +44,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.round_pb = new System.Windows.Forms.PictureBox();
             this.RC_round_lbl = new System.Windows.Forms.Label();
             this.RC_food_lbl = new System.Windows.Forms.Label();
             this.RC_harvest_lbl = new System.Windows.Forms.Label();
@@ -94,13 +85,6 @@
             this.player1Francs_lbl = new System.Windows.Forms.Label();
             this.turn_lbl = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.roundMarker1 = new System.Windows.Forms.PictureBox();
-            this.roundMarker2 = new System.Windows.Forms.PictureBox();
-            this.roundMarker3 = new System.Windows.Forms.PictureBox();
-            this.roundMarker4 = new System.Windows.Forms.PictureBox();
-            this.roundMarker5 = new System.Windows.Forms.PictureBox();
-            this.roundMarker6 = new System.Windows.Forms.PictureBox();
-            this.roundMarker7 = new System.Windows.Forms.PictureBox();
             this.rm1l1 = new System.Windows.Forms.Label();
             this.rm1l2 = new System.Windows.Forms.Label();
             this.rm1l3 = new System.Windows.Forms.Label();
@@ -122,50 +106,94 @@
             this.rm7l1 = new System.Windows.Forms.Label();
             this.rm7l2 = new System.Windows.Forms.Label();
             this.rm7l3 = new System.Windows.Forms.Label();
-            this.boatspace1 = new System.Windows.Forms.PictureBox();
-            this.boatSpace2 = new System.Windows.Forms.PictureBox();
-            this.boatSpace3 = new System.Windows.Forms.PictureBox();
-            this.boatSpace4 = new System.Windows.Forms.PictureBox();
-            this.boatSpace5 = new System.Windows.Forms.PictureBox();
-            this.boatSpace6 = new System.Windows.Forms.PictureBox();
-            this.boatSpace7 = new System.Windows.Forms.PictureBox();
             this.RC_building_lbl = new System.Windows.Forms.Label();
             this.RC_specialbuilding_lbl = new System.Windows.Forms.Label();
             this.player1Loans_lbl = new System.Windows.Forms.Label();
             this.player2Loans_lbl = new System.Windows.Forms.Label();
-            this.publicBuilding1_pb = new System.Windows.Forms.PictureBox();
-            this.publicBuilding2_pb = new System.Windows.Forms.PictureBox();
-            this.publicBuilding3_pb = new System.Windows.Forms.PictureBox();
-            this.publicBuilding4_pb = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.gameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.musicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rulesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.publicBuilding13_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding14_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding12_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding11_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding10_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding9_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding8_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding7_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding6_pb = new System.Windows.Forms.PictureBox();
             this.publicBuilding5_pb = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.board)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.francs_pb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fish_pb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.wood_pb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clay_pb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iron_pb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.v)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cattle_pb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.round_pb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatspace1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding1_pb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding2_pb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding3_pb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding4_pb)).BeginInit();
+            this.publicBuilding4_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding3_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding2_pb = new System.Windows.Forms.PictureBox();
+            this.publicBuilding1_pb = new System.Windows.Forms.PictureBox();
+            this.boatSpace7 = new System.Windows.Forms.PictureBox();
+            this.boatSpace6 = new System.Windows.Forms.PictureBox();
+            this.boatSpace5 = new System.Windows.Forms.PictureBox();
+            this.boatSpace4 = new System.Windows.Forms.PictureBox();
+            this.boatSpace3 = new System.Windows.Forms.PictureBox();
+            this.boatSpace2 = new System.Windows.Forms.PictureBox();
+            this.boatspace1 = new System.Windows.Forms.PictureBox();
+            this.roundMarker7 = new System.Windows.Forms.PictureBox();
+            this.roundMarker6 = new System.Windows.Forms.PictureBox();
+            this.roundMarker5 = new System.Windows.Forms.PictureBox();
+            this.roundMarker4 = new System.Windows.Forms.PictureBox();
+            this.roundMarker3 = new System.Windows.Forms.PictureBox();
+            this.roundMarker2 = new System.Windows.Forms.PictureBox();
+            this.roundMarker1 = new System.Windows.Forms.PictureBox();
+            this.round_pb = new System.Windows.Forms.PictureBox();
+            this.cattle_pb = new System.Windows.Forms.PictureBox();
+            this.v = new System.Windows.Forms.PictureBox();
+            this.iron_pb = new System.Windows.Forms.PictureBox();
+            this.clay_pb = new System.Windows.Forms.PictureBox();
+            this.wood_pb = new System.Windows.Forms.PictureBox();
+            this.fish_pb = new System.Windows.Forms.PictureBox();
+            this.francs_pb = new System.Windows.Forms.PictureBox();
+            this.board = new System.Windows.Forms.PictureBox();
+            this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding13_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding14_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding12_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding11_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding10_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding9_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding8_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding7_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding6_pb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.publicBuilding5_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding4_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding3_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding2_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding1_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatspace1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.round_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cattle_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.v)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iron_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clay_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wood_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.francs_pb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.board)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -186,83 +214,11 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Blue;
-            this.label2.Location = new System.Drawing.Point(11, 9);
+            this.label2.Location = new System.Drawing.Point(0, 33);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Blue Player";
-            // 
-            // board
-            // 
-            this.board.BackColor = System.Drawing.Color.SaddleBrown;
-            this.board.Location = new System.Drawing.Point(196, 455);
-            this.board.Name = "board";
-            this.board.Size = new System.Drawing.Size(1029, 270);
-            this.board.TabIndex = 2;
-            this.board.TabStop = false;
-            // 
-            // francs_pb
-            // 
-            this.francs_pb.Location = new System.Drawing.Point(224, 629);
-            this.francs_pb.Name = "francs_pb";
-            this.francs_pb.Size = new System.Drawing.Size(82, 77);
-            this.francs_pb.TabIndex = 3;
-            this.francs_pb.TabStop = false;
-            this.francs_pb.Click += new System.EventHandler(this.francs_pb_Click);
-            // 
-            // fish_pb
-            // 
-            this.fish_pb.Location = new System.Drawing.Point(343, 629);
-            this.fish_pb.Name = "fish_pb";
-            this.fish_pb.Size = new System.Drawing.Size(82, 77);
-            this.fish_pb.TabIndex = 4;
-            this.fish_pb.TabStop = false;
-            this.fish_pb.Click += new System.EventHandler(this.fish_pb_Click);
-            // 
-            // wood_pb
-            // 
-            this.wood_pb.Location = new System.Drawing.Point(474, 629);
-            this.wood_pb.Name = "wood_pb";
-            this.wood_pb.Size = new System.Drawing.Size(82, 77);
-            this.wood_pb.TabIndex = 5;
-            this.wood_pb.TabStop = false;
-            this.wood_pb.Click += new System.EventHandler(this.wood_pb_Click);
-            // 
-            // clay_pb
-            // 
-            this.clay_pb.Location = new System.Drawing.Point(603, 629);
-            this.clay_pb.Name = "clay_pb";
-            this.clay_pb.Size = new System.Drawing.Size(82, 77);
-            this.clay_pb.TabIndex = 6;
-            this.clay_pb.TabStop = false;
-            this.clay_pb.Click += new System.EventHandler(this.clay_pb_Click);
-            // 
-            // iron_pb
-            // 
-            this.iron_pb.Location = new System.Drawing.Point(856, 629);
-            this.iron_pb.Name = "iron_pb";
-            this.iron_pb.Size = new System.Drawing.Size(82, 77);
-            this.iron_pb.TabIndex = 7;
-            this.iron_pb.TabStop = false;
-            this.iron_pb.Click += new System.EventHandler(this.iron_pb_Click);
-            // 
-            // v
-            // 
-            this.v.Location = new System.Drawing.Point(733, 629);
-            this.v.Name = "v";
-            this.v.Size = new System.Drawing.Size(82, 77);
-            this.v.TabIndex = 8;
-            this.v.TabStop = false;
-            this.v.Click += new System.EventHandler(this.v_Click);
-            // 
-            // cattle_pb
-            // 
-            this.cattle_pb.Location = new System.Drawing.Point(980, 629);
-            this.cattle_pb.Name = "cattle_pb";
-            this.cattle_pb.Size = new System.Drawing.Size(82, 77);
-            this.cattle_pb.TabIndex = 9;
-            this.cattle_pb.TabStop = false;
-            this.cattle_pb.Click += new System.EventHandler(this.cattle_pb_Click);
             // 
             // francs_lbl
             // 
@@ -403,14 +359,6 @@
             this.label9.Size = new System.Drawing.Size(57, 20);
             this.label9.TabIndex = 23;
             this.label9.Text = "Cattle";
-            // 
-            // round_pb
-            // 
-            this.round_pb.Location = new System.Drawing.Point(1095, 578);
-            this.round_pb.Name = "round_pb";
-            this.round_pb.Size = new System.Drawing.Size(105, 128);
-            this.round_pb.TabIndex = 24;
-            this.round_pb.TabStop = false;
             // 
             // RC_round_lbl
             // 
@@ -626,7 +574,7 @@
             // 
             this.player1Points_lbl.AutoSize = true;
             this.player1Points_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Points_lbl.Location = new System.Drawing.Point(84, 47);
+            this.player1Points_lbl.Location = new System.Drawing.Point(79, 71);
             this.player1Points_lbl.Name = "player1Points_lbl";
             this.player1Points_lbl.Size = new System.Drawing.Size(49, 13);
             this.player1Points_lbl.TabIndex = 63;
@@ -636,7 +584,7 @@
             // 
             this.player1Leather_lbl.AutoSize = true;
             this.player1Leather_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Leather_lbl.Location = new System.Drawing.Point(84, 249);
+            this.player1Leather_lbl.Location = new System.Drawing.Point(79, 273);
             this.player1Leather_lbl.Name = "player1Leather_lbl";
             this.player1Leather_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Leather_lbl.TabIndex = 62;
@@ -646,7 +594,7 @@
             // 
             this.player1Coke_lbl.AutoSize = true;
             this.player1Coke_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Coke_lbl.Location = new System.Drawing.Point(84, 226);
+            this.player1Coke_lbl.Location = new System.Drawing.Point(79, 250);
             this.player1Coke_lbl.Name = "player1Coke_lbl";
             this.player1Coke_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Coke_lbl.TabIndex = 61;
@@ -656,7 +604,7 @@
             // 
             this.player1Meat_lbl.AutoSize = true;
             this.player1Meat_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Meat_lbl.Location = new System.Drawing.Point(84, 202);
+            this.player1Meat_lbl.Location = new System.Drawing.Point(79, 226);
             this.player1Meat_lbl.Name = "player1Meat_lbl";
             this.player1Meat_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Meat_lbl.TabIndex = 60;
@@ -666,7 +614,7 @@
             // 
             this.player1Steel_lbl.AutoSize = true;
             this.player1Steel_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Steel_lbl.Location = new System.Drawing.Point(84, 179);
+            this.player1Steel_lbl.Location = new System.Drawing.Point(79, 203);
             this.player1Steel_lbl.Name = "player1Steel_lbl";
             this.player1Steel_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Steel_lbl.TabIndex = 59;
@@ -676,7 +624,7 @@
             // 
             this.player1Bread_lbl.AutoSize = true;
             this.player1Bread_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Bread_lbl.Location = new System.Drawing.Point(84, 154);
+            this.player1Bread_lbl.Location = new System.Drawing.Point(79, 178);
             this.player1Bread_lbl.Name = "player1Bread_lbl";
             this.player1Bread_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Bread_lbl.TabIndex = 58;
@@ -686,7 +634,7 @@
             // 
             this.player1Bricks_lbl.AutoSize = true;
             this.player1Bricks_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Bricks_lbl.Location = new System.Drawing.Point(84, 125);
+            this.player1Bricks_lbl.Location = new System.Drawing.Point(79, 149);
             this.player1Bricks_lbl.Name = "player1Bricks_lbl";
             this.player1Bricks_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Bricks_lbl.TabIndex = 57;
@@ -696,7 +644,7 @@
             // 
             this.player1Charcoal_lbl.AutoSize = true;
             this.player1Charcoal_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Charcoal_lbl.Location = new System.Drawing.Point(84, 99);
+            this.player1Charcoal_lbl.Location = new System.Drawing.Point(79, 123);
             this.player1Charcoal_lbl.Name = "player1Charcoal_lbl";
             this.player1Charcoal_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Charcoal_lbl.TabIndex = 56;
@@ -706,7 +654,7 @@
             // 
             this.player1SmokedFish_lbl.AutoSize = true;
             this.player1SmokedFish_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1SmokedFish_lbl.Location = new System.Drawing.Point(84, 74);
+            this.player1SmokedFish_lbl.Location = new System.Drawing.Point(79, 98);
             this.player1SmokedFish_lbl.Name = "player1SmokedFish_lbl";
             this.player1SmokedFish_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1SmokedFish_lbl.TabIndex = 55;
@@ -716,7 +664,7 @@
             // 
             this.player1Hides_lbl.AutoSize = true;
             this.player1Hides_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Hides_lbl.Location = new System.Drawing.Point(12, 249);
+            this.player1Hides_lbl.Location = new System.Drawing.Point(7, 273);
             this.player1Hides_lbl.Name = "player1Hides_lbl";
             this.player1Hides_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Hides_lbl.TabIndex = 54;
@@ -726,7 +674,7 @@
             // 
             this.player1Coal_lbl.AutoSize = true;
             this.player1Coal_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Coal_lbl.Location = new System.Drawing.Point(12, 226);
+            this.player1Coal_lbl.Location = new System.Drawing.Point(7, 250);
             this.player1Coal_lbl.Name = "player1Coal_lbl";
             this.player1Coal_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Coal_lbl.TabIndex = 53;
@@ -736,7 +684,7 @@
             // 
             this.player1Cattle_lbl.AutoSize = true;
             this.player1Cattle_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Cattle_lbl.Location = new System.Drawing.Point(13, 202);
+            this.player1Cattle_lbl.Location = new System.Drawing.Point(8, 226);
             this.player1Cattle_lbl.Name = "player1Cattle_lbl";
             this.player1Cattle_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Cattle_lbl.TabIndex = 52;
@@ -746,7 +694,7 @@
             // 
             this.player1Iron_lbl.AutoSize = true;
             this.player1Iron_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Iron_lbl.Location = new System.Drawing.Point(13, 179);
+            this.player1Iron_lbl.Location = new System.Drawing.Point(8, 203);
             this.player1Iron_lbl.Name = "player1Iron_lbl";
             this.player1Iron_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Iron_lbl.TabIndex = 51;
@@ -756,7 +704,7 @@
             // 
             this.player1Grain_lbl.AutoSize = true;
             this.player1Grain_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Grain_lbl.Location = new System.Drawing.Point(13, 154);
+            this.player1Grain_lbl.Location = new System.Drawing.Point(8, 178);
             this.player1Grain_lbl.Name = "player1Grain_lbl";
             this.player1Grain_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Grain_lbl.TabIndex = 50;
@@ -766,7 +714,7 @@
             // 
             this.player1Clay_lbl.AutoSize = true;
             this.player1Clay_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Clay_lbl.Location = new System.Drawing.Point(12, 125);
+            this.player1Clay_lbl.Location = new System.Drawing.Point(7, 149);
             this.player1Clay_lbl.Name = "player1Clay_lbl";
             this.player1Clay_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Clay_lbl.TabIndex = 49;
@@ -776,7 +724,7 @@
             // 
             this.player1Wood_lbl.AutoSize = true;
             this.player1Wood_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Wood_lbl.Location = new System.Drawing.Point(13, 99);
+            this.player1Wood_lbl.Location = new System.Drawing.Point(8, 123);
             this.player1Wood_lbl.Name = "player1Wood_lbl";
             this.player1Wood_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Wood_lbl.TabIndex = 48;
@@ -786,7 +734,7 @@
             // 
             this.player1Fish_lbl.AutoSize = true;
             this.player1Fish_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Fish_lbl.Location = new System.Drawing.Point(12, 74);
+            this.player1Fish_lbl.Location = new System.Drawing.Point(7, 98);
             this.player1Fish_lbl.Name = "player1Fish_lbl";
             this.player1Fish_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Fish_lbl.TabIndex = 47;
@@ -796,7 +744,7 @@
             // 
             this.player1Francs_lbl.AutoSize = true;
             this.player1Francs_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Francs_lbl.Location = new System.Drawing.Point(12, 47);
+            this.player1Francs_lbl.Location = new System.Drawing.Point(7, 71);
             this.player1Francs_lbl.Name = "player1Francs_lbl";
             this.player1Francs_lbl.Size = new System.Drawing.Size(49, 13);
             this.player1Francs_lbl.TabIndex = 46;
@@ -823,62 +771,6 @@
             this.button1.Text = "End turn";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // roundMarker1
-            // 
-            this.roundMarker1.Location = new System.Drawing.Point(224, 512);
-            this.roundMarker1.Name = "roundMarker1";
-            this.roundMarker1.Size = new System.Drawing.Size(82, 77);
-            this.roundMarker1.TabIndex = 66;
-            this.roundMarker1.TabStop = false;
-            // 
-            // roundMarker2
-            // 
-            this.roundMarker2.Location = new System.Drawing.Point(343, 512);
-            this.roundMarker2.Name = "roundMarker2";
-            this.roundMarker2.Size = new System.Drawing.Size(82, 77);
-            this.roundMarker2.TabIndex = 67;
-            this.roundMarker2.TabStop = false;
-            // 
-            // roundMarker3
-            // 
-            this.roundMarker3.Location = new System.Drawing.Point(475, 512);
-            this.roundMarker3.Name = "roundMarker3";
-            this.roundMarker3.Size = new System.Drawing.Size(82, 77);
-            this.roundMarker3.TabIndex = 68;
-            this.roundMarker3.TabStop = false;
-            // 
-            // roundMarker4
-            // 
-            this.roundMarker4.Location = new System.Drawing.Point(603, 512);
-            this.roundMarker4.Name = "roundMarker4";
-            this.roundMarker4.Size = new System.Drawing.Size(82, 77);
-            this.roundMarker4.TabIndex = 69;
-            this.roundMarker4.TabStop = false;
-            // 
-            // roundMarker5
-            // 
-            this.roundMarker5.Location = new System.Drawing.Point(733, 512);
-            this.roundMarker5.Name = "roundMarker5";
-            this.roundMarker5.Size = new System.Drawing.Size(82, 77);
-            this.roundMarker5.TabIndex = 70;
-            this.roundMarker5.TabStop = false;
-            // 
-            // roundMarker6
-            // 
-            this.roundMarker6.Location = new System.Drawing.Point(856, 512);
-            this.roundMarker6.Name = "roundMarker6";
-            this.roundMarker6.Size = new System.Drawing.Size(82, 77);
-            this.roundMarker6.TabIndex = 71;
-            this.roundMarker6.TabStop = false;
-            // 
-            // roundMarker7
-            // 
-            this.roundMarker7.Location = new System.Drawing.Point(980, 512);
-            this.roundMarker7.Name = "roundMarker7";
-            this.roundMarker7.Size = new System.Drawing.Size(82, 77);
-            this.roundMarker7.TabIndex = 72;
-            this.roundMarker7.TabStop = false;
             // 
             // rm1l1
             // 
@@ -1090,69 +982,6 @@
             this.rm7l3.TabIndex = 94;
             this.rm7l3.Text = "Francs";
             // 
-            // boatspace1
-            // 
-            this.boatspace1.BackColor = System.Drawing.Color.SaddleBrown;
-            this.boatspace1.Location = new System.Drawing.Point(250, 473);
-            this.boatspace1.Name = "boatspace1";
-            this.boatspace1.Size = new System.Drawing.Size(22, 21);
-            this.boatspace1.TabIndex = 95;
-            this.boatspace1.TabStop = false;
-            // 
-            // boatSpace2
-            // 
-            this.boatSpace2.BackColor = System.Drawing.Color.SaddleBrown;
-            this.boatSpace2.Location = new System.Drawing.Point(365, 473);
-            this.boatSpace2.Name = "boatSpace2";
-            this.boatSpace2.Size = new System.Drawing.Size(22, 21);
-            this.boatSpace2.TabIndex = 96;
-            this.boatSpace2.TabStop = false;
-            // 
-            // boatSpace3
-            // 
-            this.boatSpace3.BackColor = System.Drawing.Color.SaddleBrown;
-            this.boatSpace3.Location = new System.Drawing.Point(504, 473);
-            this.boatSpace3.Name = "boatSpace3";
-            this.boatSpace3.Size = new System.Drawing.Size(22, 21);
-            this.boatSpace3.TabIndex = 97;
-            this.boatSpace3.TabStop = false;
-            // 
-            // boatSpace4
-            // 
-            this.boatSpace4.BackColor = System.Drawing.Color.SaddleBrown;
-            this.boatSpace4.Location = new System.Drawing.Point(624, 473);
-            this.boatSpace4.Name = "boatSpace4";
-            this.boatSpace4.Size = new System.Drawing.Size(22, 21);
-            this.boatSpace4.TabIndex = 98;
-            this.boatSpace4.TabStop = false;
-            // 
-            // boatSpace5
-            // 
-            this.boatSpace5.BackColor = System.Drawing.Color.SaddleBrown;
-            this.boatSpace5.Location = new System.Drawing.Point(761, 473);
-            this.boatSpace5.Name = "boatSpace5";
-            this.boatSpace5.Size = new System.Drawing.Size(22, 21);
-            this.boatSpace5.TabIndex = 99;
-            this.boatSpace5.TabStop = false;
-            // 
-            // boatSpace6
-            // 
-            this.boatSpace6.BackColor = System.Drawing.Color.SaddleBrown;
-            this.boatSpace6.Location = new System.Drawing.Point(884, 473);
-            this.boatSpace6.Name = "boatSpace6";
-            this.boatSpace6.Size = new System.Drawing.Size(22, 21);
-            this.boatSpace6.TabIndex = 100;
-            this.boatSpace6.TabStop = false;
-            // 
-            // boatSpace7
-            // 
-            this.boatSpace7.BackColor = System.Drawing.Color.SaddleBrown;
-            this.boatSpace7.Location = new System.Drawing.Point(1009, 473);
-            this.boatSpace7.Name = "boatSpace7";
-            this.boatSpace7.Size = new System.Drawing.Size(22, 21);
-            this.boatSpace7.TabIndex = 101;
-            this.boatSpace7.TabStop = false;
-            // 
             // RC_building_lbl
             // 
             this.RC_building_lbl.AutoSize = true;
@@ -1177,7 +1006,7 @@
             // 
             this.player1Loans_lbl.AutoSize = true;
             this.player1Loans_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.player1Loans_lbl.Location = new System.Drawing.Point(12, 269);
+            this.player1Loans_lbl.Location = new System.Drawing.Point(7, 293);
             this.player1Loans_lbl.Name = "player1Loans_lbl";
             this.player1Loans_lbl.Size = new System.Drawing.Size(34, 13);
             this.player1Loans_lbl.TabIndex = 104;
@@ -1193,59 +1022,420 @@
             this.player2Loans_lbl.TabIndex = 105;
             this.player2Loans_lbl.Text = "Fish:";
             // 
-            // publicBuilding1_pb
+            // menuStrip1
             // 
-            this.publicBuilding1_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.publicBuilding1_pb.Location = new System.Drawing.Point(749, 72);
-            this.publicBuilding1_pb.Name = "publicBuilding1_pb";
-            this.publicBuilding1_pb.Size = new System.Drawing.Size(76, 120);
-            this.publicBuilding1_pb.TabIndex = 106;
-            this.publicBuilding1_pb.TabStop = false;
-            this.publicBuilding1_pb.Click += new System.EventHandler(this.publicBuilding1_pb_Click);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gameToolStripMenuItem,
+            this.optionsToolStripMenuItem,
+            this.helpToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1410, 24);
+            this.menuStrip1.TabIndex = 120;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // gameToolStripMenuItem
+            // 
+            this.gameToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newGameToolStripMenuItem,
+            this.exitToolStripMenuItem});
+            this.gameToolStripMenuItem.Name = "gameToolStripMenuItem";
+            this.gameToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.gameToolStripMenuItem.Text = "Game";
+            // 
+            // optionsToolStripMenuItem
+            // 
+            this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.musicToolStripMenuItem});
+            this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.optionsToolStripMenuItem.Text = "Options";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rulesToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // newGameToolStripMenuItem
+            // 
+            this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newGameToolStripMenuItem.Text = "New Game";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // musicToolStripMenuItem
+            // 
+            this.musicToolStripMenuItem.Name = "musicToolStripMenuItem";
+            this.musicToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.musicToolStripMenuItem.Text = "Music";
+            // 
+            // rulesToolStripMenuItem
+            // 
+            this.rulesToolStripMenuItem.Name = "rulesToolStripMenuItem";
+            this.rulesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.rulesToolStripMenuItem.Text = "Rules";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // publicBuilding13_pb
+            // 
+            this.publicBuilding13_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding13_pb.Location = new System.Drawing.Point(777, 217);
+            this.publicBuilding13_pb.Name = "publicBuilding13_pb";
+            this.publicBuilding13_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding13_pb.TabIndex = 119;
+            this.publicBuilding13_pb.TabStop = false;
+            // 
+            // publicBuilding14_pb
+            // 
+            this.publicBuilding14_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding14_pb.Location = new System.Drawing.Point(891, 217);
+            this.publicBuilding14_pb.Name = "publicBuilding14_pb";
+            this.publicBuilding14_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding14_pb.TabIndex = 118;
+            this.publicBuilding14_pb.TabStop = false;
+            // 
+            // publicBuilding12_pb
+            // 
+            this.publicBuilding12_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding12_pb.Location = new System.Drawing.Point(663, 217);
+            this.publicBuilding12_pb.Name = "publicBuilding12_pb";
+            this.publicBuilding12_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding12_pb.TabIndex = 117;
+            this.publicBuilding12_pb.TabStop = false;
+            // 
+            // publicBuilding11_pb
+            // 
+            this.publicBuilding11_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding11_pb.Location = new System.Drawing.Point(548, 217);
+            this.publicBuilding11_pb.Name = "publicBuilding11_pb";
+            this.publicBuilding11_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding11_pb.TabIndex = 116;
+            this.publicBuilding11_pb.TabStop = false;
+            // 
+            // publicBuilding10_pb
+            // 
+            this.publicBuilding10_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding10_pb.Location = new System.Drawing.Point(444, 217);
+            this.publicBuilding10_pb.Name = "publicBuilding10_pb";
+            this.publicBuilding10_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding10_pb.TabIndex = 115;
+            this.publicBuilding10_pb.TabStop = false;
+            // 
+            // publicBuilding9_pb
+            // 
+            this.publicBuilding9_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding9_pb.Location = new System.Drawing.Point(333, 217);
+            this.publicBuilding9_pb.Name = "publicBuilding9_pb";
+            this.publicBuilding9_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding9_pb.TabIndex = 114;
+            this.publicBuilding9_pb.TabStop = false;
+            // 
+            // publicBuilding8_pb
+            // 
+            this.publicBuilding8_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding8_pb.Location = new System.Drawing.Point(220, 217);
+            this.publicBuilding8_pb.Name = "publicBuilding8_pb";
+            this.publicBuilding8_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding8_pb.TabIndex = 113;
+            this.publicBuilding8_pb.TabStop = false;
+            // 
+            // publicBuilding7_pb
+            // 
+            this.publicBuilding7_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding7_pb.Location = new System.Drawing.Point(891, 62);
+            this.publicBuilding7_pb.Name = "publicBuilding7_pb";
+            this.publicBuilding7_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding7_pb.TabIndex = 112;
+            this.publicBuilding7_pb.TabStop = false;
+            // 
+            // publicBuilding6_pb
+            // 
+            this.publicBuilding6_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding6_pb.Location = new System.Drawing.Point(777, 62);
+            this.publicBuilding6_pb.Name = "publicBuilding6_pb";
+            this.publicBuilding6_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding6_pb.TabIndex = 111;
+            this.publicBuilding6_pb.TabStop = false;
+            // 
+            // publicBuilding5_pb
+            // 
+            this.publicBuilding5_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding5_pb.Location = new System.Drawing.Point(663, 62);
+            this.publicBuilding5_pb.Name = "publicBuilding5_pb";
+            this.publicBuilding5_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding5_pb.TabIndex = 110;
+            this.publicBuilding5_pb.TabStop = false;
+            // 
+            // publicBuilding4_pb
+            // 
+            this.publicBuilding4_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding4_pb.Location = new System.Drawing.Point(548, 62);
+            this.publicBuilding4_pb.Name = "publicBuilding4_pb";
+            this.publicBuilding4_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding4_pb.TabIndex = 109;
+            this.publicBuilding4_pb.TabStop = false;
+            // 
+            // publicBuilding3_pb
+            // 
+            this.publicBuilding3_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding3_pb.Location = new System.Drawing.Point(444, 62);
+            this.publicBuilding3_pb.Name = "publicBuilding3_pb";
+            this.publicBuilding3_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding3_pb.TabIndex = 108;
+            this.publicBuilding3_pb.TabStop = false;
             // 
             // publicBuilding2_pb
             // 
             this.publicBuilding2_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.publicBuilding2_pb.Location = new System.Drawing.Point(862, 74);
+            this.publicBuilding2_pb.Location = new System.Drawing.Point(333, 64);
             this.publicBuilding2_pb.Name = "publicBuilding2_pb";
             this.publicBuilding2_pb.Size = new System.Drawing.Size(76, 120);
             this.publicBuilding2_pb.TabIndex = 107;
             this.publicBuilding2_pb.TabStop = false;
             this.publicBuilding2_pb.Click += new System.EventHandler(this.publicBuilding2_pb_Click);
             // 
-            // publicBuilding3_pb
+            // publicBuilding1_pb
             // 
-            this.publicBuilding3_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.publicBuilding3_pb.Location = new System.Drawing.Point(973, 72);
-            this.publicBuilding3_pb.Name = "publicBuilding3_pb";
-            this.publicBuilding3_pb.Size = new System.Drawing.Size(76, 120);
-            this.publicBuilding3_pb.TabIndex = 108;
-            this.publicBuilding3_pb.TabStop = false;
+            this.publicBuilding1_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.publicBuilding1_pb.Location = new System.Drawing.Point(220, 62);
+            this.publicBuilding1_pb.Name = "publicBuilding1_pb";
+            this.publicBuilding1_pb.Size = new System.Drawing.Size(76, 120);
+            this.publicBuilding1_pb.TabIndex = 106;
+            this.publicBuilding1_pb.TabStop = false;
+            this.publicBuilding1_pb.Click += new System.EventHandler(this.publicBuilding1_pb_Click);
+            this.publicBuilding1_pb.MouseEnter += new System.EventHandler(this.publicBuilding1_pb_MouseEnter);
+            this.publicBuilding1_pb.MouseLeave += new System.EventHandler(this.publicBuilding1_pb_MouseLeave);
             // 
-            // publicBuilding4_pb
+            // boatSpace7
             // 
-            this.publicBuilding4_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.publicBuilding4_pb.Location = new System.Drawing.Point(1077, 72);
-            this.publicBuilding4_pb.Name = "publicBuilding4_pb";
-            this.publicBuilding4_pb.Size = new System.Drawing.Size(76, 120);
-            this.publicBuilding4_pb.TabIndex = 109;
-            this.publicBuilding4_pb.TabStop = false;
+            this.boatSpace7.BackColor = System.Drawing.Color.SaddleBrown;
+            this.boatSpace7.Location = new System.Drawing.Point(1009, 473);
+            this.boatSpace7.Name = "boatSpace7";
+            this.boatSpace7.Size = new System.Drawing.Size(22, 21);
+            this.boatSpace7.TabIndex = 101;
+            this.boatSpace7.TabStop = false;
             // 
-            // publicBuilding5_pb
+            // boatSpace6
             // 
-            this.publicBuilding5_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.publicBuilding5_pb.Location = new System.Drawing.Point(1192, 72);
-            this.publicBuilding5_pb.Name = "publicBuilding5_pb";
-            this.publicBuilding5_pb.Size = new System.Drawing.Size(76, 120);
-            this.publicBuilding5_pb.TabIndex = 110;
-            this.publicBuilding5_pb.TabStop = false;
+            this.boatSpace6.BackColor = System.Drawing.Color.SaddleBrown;
+            this.boatSpace6.Location = new System.Drawing.Point(884, 473);
+            this.boatSpace6.Name = "boatSpace6";
+            this.boatSpace6.Size = new System.Drawing.Size(22, 21);
+            this.boatSpace6.TabIndex = 100;
+            this.boatSpace6.TabStop = false;
+            // 
+            // boatSpace5
+            // 
+            this.boatSpace5.BackColor = System.Drawing.Color.SaddleBrown;
+            this.boatSpace5.Location = new System.Drawing.Point(761, 473);
+            this.boatSpace5.Name = "boatSpace5";
+            this.boatSpace5.Size = new System.Drawing.Size(22, 21);
+            this.boatSpace5.TabIndex = 99;
+            this.boatSpace5.TabStop = false;
+            // 
+            // boatSpace4
+            // 
+            this.boatSpace4.BackColor = System.Drawing.Color.SaddleBrown;
+            this.boatSpace4.Location = new System.Drawing.Point(624, 473);
+            this.boatSpace4.Name = "boatSpace4";
+            this.boatSpace4.Size = new System.Drawing.Size(22, 21);
+            this.boatSpace4.TabIndex = 98;
+            this.boatSpace4.TabStop = false;
+            // 
+            // boatSpace3
+            // 
+            this.boatSpace3.BackColor = System.Drawing.Color.SaddleBrown;
+            this.boatSpace3.Location = new System.Drawing.Point(504, 473);
+            this.boatSpace3.Name = "boatSpace3";
+            this.boatSpace3.Size = new System.Drawing.Size(22, 21);
+            this.boatSpace3.TabIndex = 97;
+            this.boatSpace3.TabStop = false;
+            // 
+            // boatSpace2
+            // 
+            this.boatSpace2.BackColor = System.Drawing.Color.SaddleBrown;
+            this.boatSpace2.Location = new System.Drawing.Point(365, 473);
+            this.boatSpace2.Name = "boatSpace2";
+            this.boatSpace2.Size = new System.Drawing.Size(22, 21);
+            this.boatSpace2.TabIndex = 96;
+            this.boatSpace2.TabStop = false;
+            // 
+            // boatspace1
+            // 
+            this.boatspace1.BackColor = System.Drawing.Color.SaddleBrown;
+            this.boatspace1.Location = new System.Drawing.Point(250, 473);
+            this.boatspace1.Name = "boatspace1";
+            this.boatspace1.Size = new System.Drawing.Size(22, 21);
+            this.boatspace1.TabIndex = 95;
+            this.boatspace1.TabStop = false;
+            // 
+            // roundMarker7
+            // 
+            this.roundMarker7.Location = new System.Drawing.Point(980, 512);
+            this.roundMarker7.Name = "roundMarker7";
+            this.roundMarker7.Size = new System.Drawing.Size(82, 77);
+            this.roundMarker7.TabIndex = 72;
+            this.roundMarker7.TabStop = false;
+            // 
+            // roundMarker6
+            // 
+            this.roundMarker6.Location = new System.Drawing.Point(856, 512);
+            this.roundMarker6.Name = "roundMarker6";
+            this.roundMarker6.Size = new System.Drawing.Size(82, 77);
+            this.roundMarker6.TabIndex = 71;
+            this.roundMarker6.TabStop = false;
+            // 
+            // roundMarker5
+            // 
+            this.roundMarker5.Location = new System.Drawing.Point(733, 512);
+            this.roundMarker5.Name = "roundMarker5";
+            this.roundMarker5.Size = new System.Drawing.Size(82, 77);
+            this.roundMarker5.TabIndex = 70;
+            this.roundMarker5.TabStop = false;
+            // 
+            // roundMarker4
+            // 
+            this.roundMarker4.Location = new System.Drawing.Point(603, 512);
+            this.roundMarker4.Name = "roundMarker4";
+            this.roundMarker4.Size = new System.Drawing.Size(82, 77);
+            this.roundMarker4.TabIndex = 69;
+            this.roundMarker4.TabStop = false;
+            // 
+            // roundMarker3
+            // 
+            this.roundMarker3.Location = new System.Drawing.Point(475, 512);
+            this.roundMarker3.Name = "roundMarker3";
+            this.roundMarker3.Size = new System.Drawing.Size(82, 77);
+            this.roundMarker3.TabIndex = 68;
+            this.roundMarker3.TabStop = false;
+            // 
+            // roundMarker2
+            // 
+            this.roundMarker2.Location = new System.Drawing.Point(343, 512);
+            this.roundMarker2.Name = "roundMarker2";
+            this.roundMarker2.Size = new System.Drawing.Size(82, 77);
+            this.roundMarker2.TabIndex = 67;
+            this.roundMarker2.TabStop = false;
+            // 
+            // roundMarker1
+            // 
+            this.roundMarker1.Location = new System.Drawing.Point(224, 512);
+            this.roundMarker1.Name = "roundMarker1";
+            this.roundMarker1.Size = new System.Drawing.Size(82, 77);
+            this.roundMarker1.TabIndex = 66;
+            this.roundMarker1.TabStop = false;
+            // 
+            // round_pb
+            // 
+            this.round_pb.Location = new System.Drawing.Point(1095, 578);
+            this.round_pb.Name = "round_pb";
+            this.round_pb.Size = new System.Drawing.Size(105, 128);
+            this.round_pb.TabIndex = 24;
+            this.round_pb.TabStop = false;
+            // 
+            // cattle_pb
+            // 
+            this.cattle_pb.Location = new System.Drawing.Point(980, 629);
+            this.cattle_pb.Name = "cattle_pb";
+            this.cattle_pb.Size = new System.Drawing.Size(82, 77);
+            this.cattle_pb.TabIndex = 9;
+            this.cattle_pb.TabStop = false;
+            this.cattle_pb.Click += new System.EventHandler(this.cattle_pb_Click);
+            // 
+            // v
+            // 
+            this.v.Location = new System.Drawing.Point(733, 629);
+            this.v.Name = "v";
+            this.v.Size = new System.Drawing.Size(82, 77);
+            this.v.TabIndex = 8;
+            this.v.TabStop = false;
+            this.v.Click += new System.EventHandler(this.v_Click);
+            // 
+            // iron_pb
+            // 
+            this.iron_pb.Location = new System.Drawing.Point(856, 629);
+            this.iron_pb.Name = "iron_pb";
+            this.iron_pb.Size = new System.Drawing.Size(82, 77);
+            this.iron_pb.TabIndex = 7;
+            this.iron_pb.TabStop = false;
+            this.iron_pb.Click += new System.EventHandler(this.iron_pb_Click);
+            // 
+            // clay_pb
+            // 
+            this.clay_pb.Location = new System.Drawing.Point(603, 629);
+            this.clay_pb.Name = "clay_pb";
+            this.clay_pb.Size = new System.Drawing.Size(82, 77);
+            this.clay_pb.TabIndex = 6;
+            this.clay_pb.TabStop = false;
+            this.clay_pb.Click += new System.EventHandler(this.clay_pb_Click);
+            // 
+            // wood_pb
+            // 
+            this.wood_pb.Location = new System.Drawing.Point(474, 629);
+            this.wood_pb.Name = "wood_pb";
+            this.wood_pb.Size = new System.Drawing.Size(82, 77);
+            this.wood_pb.TabIndex = 5;
+            this.wood_pb.TabStop = false;
+            this.wood_pb.Click += new System.EventHandler(this.wood_pb_Click);
+            // 
+            // fish_pb
+            // 
+            this.fish_pb.Location = new System.Drawing.Point(343, 629);
+            this.fish_pb.Name = "fish_pb";
+            this.fish_pb.Size = new System.Drawing.Size(82, 77);
+            this.fish_pb.TabIndex = 4;
+            this.fish_pb.TabStop = false;
+            this.fish_pb.Click += new System.EventHandler(this.fish_pb_Click);
+            // 
+            // francs_pb
+            // 
+            this.francs_pb.Location = new System.Drawing.Point(224, 629);
+            this.francs_pb.Name = "francs_pb";
+            this.francs_pb.Size = new System.Drawing.Size(82, 77);
+            this.francs_pb.TabIndex = 3;
+            this.francs_pb.TabStop = false;
+            this.francs_pb.Click += new System.EventHandler(this.francs_pb_Click);
+            // 
+            // board
+            // 
+            this.board.BackColor = System.Drawing.Color.SaddleBrown;
+            this.board.Location = new System.Drawing.Point(196, 455);
+            this.board.Name = "board";
+            this.board.Size = new System.Drawing.Size(1029, 270);
+            this.board.TabIndex = 2;
+            this.board.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1396, 734);
+            this.ClientSize = new System.Drawing.Size(1410, 768);
+            this.Controls.Add(this.publicBuilding13_pb);
+            this.Controls.Add(this.publicBuilding14_pb);
+            this.Controls.Add(this.publicBuilding12_pb);
+            this.Controls.Add(this.publicBuilding11_pb);
+            this.Controls.Add(this.publicBuilding10_pb);
+            this.Controls.Add(this.publicBuilding9_pb);
+            this.Controls.Add(this.publicBuilding8_pb);
+            this.Controls.Add(this.publicBuilding7_pb);
+            this.Controls.Add(this.publicBuilding6_pb);
             this.Controls.Add(this.publicBuilding5_pb);
             this.Controls.Add(this.publicBuilding4_pb);
             this.Controls.Add(this.publicBuilding3_pb);
@@ -1356,36 +1546,49 @@
             this.Controls.Add(this.board);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.board)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.francs_pb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fish_pb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.wood_pb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clay_pb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iron_pb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.v)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cattle_pb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.round_pb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundMarker7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatspace1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boatSpace7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding1_pb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding2_pb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding3_pb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding4_pb)).EndInit();
+            this.Text = "Le havre";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding13_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding14_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding12_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding11_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding10_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding9_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding8_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding7_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding6_pb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.publicBuilding5_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding4_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding3_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding2_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.publicBuilding1_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatSpace2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boatspace1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundMarker1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.round_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cattle_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.v)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iron_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clay_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wood_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fish_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.francs_pb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.board)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1503,6 +1706,24 @@
         private System.Windows.Forms.PictureBox publicBuilding3_pb;
         private System.Windows.Forms.PictureBox publicBuilding4_pb;
         private System.Windows.Forms.PictureBox publicBuilding5_pb;
+        private System.Windows.Forms.PictureBox publicBuilding6_pb;
+        private System.Windows.Forms.PictureBox publicBuilding7_pb;
+        private System.Windows.Forms.PictureBox publicBuilding8_pb;
+        private System.Windows.Forms.PictureBox publicBuilding9_pb;
+        private System.Windows.Forms.PictureBox publicBuilding10_pb;
+        private System.Windows.Forms.PictureBox publicBuilding11_pb;
+        private System.Windows.Forms.PictureBox publicBuilding12_pb;
+        private System.Windows.Forms.PictureBox publicBuilding14_pb;
+        private System.Windows.Forms.PictureBox publicBuilding13_pb;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem gameToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem musicToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rulesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
     }
 }
 

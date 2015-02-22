@@ -14,8 +14,8 @@ namespace LeHavre.Misc
         {
             standardBuildingList = new List<Building>();
 
-            standardBuildingList.Add(new Building(BuildingFunctions.BridgeOverSeine, 2, Properties.Resources._27, 27));
-            standardBuildingList.Add(new Building(BuildingFunctions.Cokery, 3, Properties.Resources._25, 25));
+            standardBuildingList.Add(new Building(BuildingFunctions.Fishery, 10, 1, 2, 0, 0, 0, 0, 0, true, false, false, false, true, false, Properties.Resources._3, 3));
+
         }
 
         public Building GetBuilding(int id)

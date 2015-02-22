@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BakehouseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BakehouseForm.Designer.cs">
+      <DependentUpon>BakehouseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="HarvestForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,6 +58,12 @@
     </Compile>
     <Compile Include="Game objects\Boat.cs" />
     <Compile Include="Game objects\Building.cs" />
+    <Compile Include="Misc\AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Misc\AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Misc\BuildingFunctions.cs" />
     <Compile Include="Misc\BuildingRepository.cs" />
     <Compile Include="Misc\EndTurnArgs.cs" />
@@ -63,15 +75,27 @@
     </Compile>
     <Compile Include="Misc\Game.cs" />
     <Compile Include="Game objects\Player.cs" />
+    <Compile Include="PayEnergyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayEnergyForm.Designer.cs">
+      <DependentUpon>PayEnergyForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Game objects\RoundCard.cs" />
     <Compile Include="Game objects\RoundMarker.cs" />
+    <EmbeddedResource Include="BakehouseForm.resx">
+      <DependentUpon>BakehouseForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HarvestForm.resx">
       <DependentUpon>HarvestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misc\AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -110,6 +134,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\redPlayerPawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\B1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\B2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\B3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Le_Havre_game.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

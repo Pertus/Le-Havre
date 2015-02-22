@@ -12,14 +12,22 @@ namespace LeHavre.Misc
         {
             player.Clay += 3 + player.Hammers;
         }
+        public static void Fishery(Player player)
+        {
+            player.Fish += 3 + player.FishingSymbols;
+        }
+        public static void Bakehouse(Player player)
+        {
 
-        public static void Cokery(Player player)
-        {
-            player.Coke += 5;
         }
-        public static void BridgeOverSeine(Player player)
-        {
-            player.Francs += 100;
-        }
+
+        //public static void Cokery(Player player)
+        //{
+        //    player.Coke += 5;
+        //}
+        //public static void BridgeOverSeine(Player player)
+        //{
+        //    player.Francs += 100;
+        //}
     }
 }

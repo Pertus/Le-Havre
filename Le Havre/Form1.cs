@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LeHavre.Misc;
+
 
 namespace LeHavre
 {
@@ -34,10 +36,7 @@ namespace LeHavre
             iron_lbl.Text = iron.ToString();
             cattle_lbl.Text = cattle.ToString();
 
-            publicBuilding1_pb.BackgroundImage = game.BuildingRepository.GetBuilding(25)._Image;
-            publicBuilding1_pb.Tag = (int)25;
-            publicBuilding2_pb.BackgroundImage = game.BuildingRepository.GetBuilding(27)._Image;
-            publicBuilding2_pb.Tag = (int)27;
+            new BakehouseForm(game.activePlayer).Show();
 
             
 
@@ -438,11 +437,35 @@ namespace LeHavre
 
             ClickOnBuilding((int)publicBuilding1_pb.Tag);
             publicBuilding1_pb.Image = Properties.Resources.redPlayerPawn;
+            
         }
 
         private void publicBuilding2_pb_Click(object sender, EventArgs e)
         {
             ClickOnBuilding((int)publicBuilding2_pb.Tag);
+        }
+
+        private void publicBuilding1_pb_MouseEnter(object sender, EventArgs e)
+        {
+            publicBuilding1_pb.Width = 200;
+            publicBuilding1_pb.Height = 300;
+            publicBuilding1_pb.BringToFront();
+        }
+
+        private void publicBuilding1_pb_MouseLeave(object sender, EventArgs e)
+        {
+            publicBuilding1_pb.Width = 76;
+            publicBuilding1_pb.Height = 120;
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new AboutBox1().Show();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
