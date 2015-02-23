@@ -18,7 +18,7 @@ namespace LeHavre.Misc
         }
         public static void Bakehouse(Player player)
         {
-
+            new BakehouseForm(player).Show();
         }
 
         //public static void Cokery(Player player)

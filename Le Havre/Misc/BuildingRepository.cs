@@ -15,6 +15,7 @@ namespace LeHavre.Misc
             standardBuildingList = new List<Building>();
 
             standardBuildingList.Add(new Building(BuildingFunctions.Fishery, 10, 1, 2, 0, 0, 0, 0, 0, true, false, false, false, true, false, Properties.Resources._3, 3));
+            standardBuildingList.Add(new Building(BuildingFunctions.Bakehouse, 8, 0, 2, 0, 0, 0, 1, 0, true, false, false, false, false, false, Properties.Resources._5, 5));
 
         }
 

@@ -36,7 +36,8 @@ namespace LeHavre
             iron_lbl.Text = iron.ToString();
             cattle_lbl.Text = cattle.ToString();
 
-            new BakehouseForm(game.activePlayer).Show();
+            publicBuilding1_pb.Tag = 5;
+            publicBuilding1_pb.BackgroundImage = game.BuildingRepository.GetBuilding((int)publicBuilding1_pb.Tag)._Image;
 
             
 

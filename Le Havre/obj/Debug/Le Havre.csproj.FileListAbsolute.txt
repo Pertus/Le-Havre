@@ -30,3 +30,4 @@ C:\Users\Per\Desktop\Kod\Le-Havre\Le Havre\obj\Debug\LeHavre.Properties.Resource
 C:\Users\Per\Desktop\Kod\Le-Havre\Le Havre\obj\Debug\Le Havre.csproj.GenerateResource.Cache
 C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.Misc.AboutBox1.resources
 C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.BakehouseForm.resources
+C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.PayEnergyForm.resources

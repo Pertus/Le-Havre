@@ -42,13 +42,14 @@ namespace LeHavre
         private void Bake()
         {
             _Player.Grain -= (int)numericUpDown1.Value;
+            _Player.Bread += (int)numericUpDown1.Value;
             _Player.Francs += (int)numericUpDown1.Value / 2;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Bake();
-            new PayEnergyForm().Show();
+            new PayEnergyForm(numericUpDown1.Value/2, _Player).Show();
             this.Close();
         }
     }
