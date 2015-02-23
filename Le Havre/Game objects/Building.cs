@@ -26,19 +26,23 @@ namespace LeHavre
         public bool CitySymbol { get; set; }
         public bool FishingSymbol { get; set; }
         public bool Hammer { get; set; }
+        public int Value { get; set; }
+        public bool Buyable { get; set; }
+
 
         
         
         
         public int CostInFrancs { get; set; }
 
-        public Building(Action<Player> use, int costInfrancs, int costInWood, int costInClay, int costInIron, 
+        public Building(Action<Player> use, int costInfrancs, int value, int costInWood, int costInClay, int costInIron, 
             int costInBricks, int costInSteel, int foodFee, int francsFee, bool houseSymbol, bool industrySymbol, bool governmentSymbol, bool citySymbol, 
-            bool fishingSymbol, bool hammer, Image image, int id)
+            bool fishingSymbol, bool hammer, bool buyable, Image image, int id)
         {
             Id = id;
             effect = use;
             CostInFrancs = costInfrancs;
+            Value = value;
             CostInWood = costInWood;
             CostInClay = costInClay;
             CostInIron = costInIron;
@@ -52,6 +56,7 @@ namespace LeHavre
             CitySymbol = citySymbol;
             FishingSymbol = fishingSymbol;
             Hammer = hammer;
+            Buyable = buyable;
             _Image = image;
             Occupied = false;
         }

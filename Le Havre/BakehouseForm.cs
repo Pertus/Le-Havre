@@ -49,7 +49,7 @@ namespace LeHavre
         private void button1_Click(object sender, EventArgs e)
         {
             Bake();
-            new PayEnergyForm(numericUpDown1.Value/2, _Player).Show();
+            new PayEnergyForm(numericUpDown1.Value/2, _Player).ShowDialog();
             this.Close();
         }
     }

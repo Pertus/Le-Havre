@@ -36,7 +36,7 @@ namespace LeHavre
             iron_lbl.Text = iron.ToString();
             cattle_lbl.Text = cattle.ToString();
 
-            publicBuilding1_pb.Tag = 5;
+            publicBuilding1_pb.Tag = 10;
             publicBuilding1_pb.BackgroundImage = game.BuildingRepository.GetBuilding((int)publicBuilding1_pb.Tag)._Image;
 
             

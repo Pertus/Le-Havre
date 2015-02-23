@@ -31,3 +31,6 @@ C:\Users\Per\Desktop\Kod\Le-Havre\Le Havre\obj\Debug\Le Havre.csproj.GenerateRes
 C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.Misc.AboutBox1.resources
 C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.BakehouseForm.resources
 C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.PayEnergyForm.resources
+C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.Misc.CharcoalKilnForm.resources
+C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.Misc.SmokehouseForm.resources
+C:\Users\Per\Desktop\Le Havre\Le Havre\obj\Debug\LeHavre.Misc.AbattoirForm.resources
